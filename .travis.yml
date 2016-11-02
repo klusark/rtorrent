@@ -41,7 +41,7 @@ matrix:
         - clang-3.8
         - libcppunit-dev
   - compiler: gcc
-    env: COMPILER=g++-4.7 SKIP_CHECK=true
+    env: COMPILER=g++-4.7 SKIP_CHECK=true SKIP_COVERAGE=truet
     addons:
       apt:
         sources: ubuntu-toolchain-r-test
